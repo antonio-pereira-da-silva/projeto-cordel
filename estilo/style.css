@@ -56,6 +56,9 @@ section.imagem{
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.733);
     background-size: cover;
     background-attachment: fixed;
+    @media (max-width: @iphone-screen) {
+        background-attachment: scroll;
+    }
 }
 section >p{
     padding-bottom: 20px;
